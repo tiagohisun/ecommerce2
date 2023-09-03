@@ -1,0 +1,37 @@
+import React from 'react';
+import Image from 'next/image';
+import male from '../../public/assets/male.png';
+import female from '../../public/assets/female.png';
+import female2 from '../../public/assets/female2.png';
+
+const Testimonials = () => {
+    return (
+        <>
+            <div className='mt-16 md:mt-32 justify-center'>
+                <p className="text-3xl md:text-5xl text-center font-semibold text-[#090914]">Mais de 1000 pessoas confiam em nós</p>
+                <p className="mt-10 text-base md:text-lg text-center text-zinc-900 px-4 md:px-0">A DENTAL04 oferece as ferramentas para criar uma presença online profissional para o seu negócio de venda de unidades dentárias de raios-x usadas.</p>
+                <p className="mt-1 text-base md:text-lg text-center text-zinc-900 px-4 md:px-0">Nossa plataforma permite que você apresente seu inventário e serviços aos potenciais clientes, ajudando a levar o seu negócio para o próximo nível.</p>
+                <p className="mt-1 text-base md:text-lg text-center text-zinc-900 px-4 md:px-0">Junte-se aos nossos clientes satisfeitos e confie no DENTAL04 para suas necessidades online.</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-9 mt-16 md:mt-24 justify-items-center">
+                <div className="flex flex-col items-center">
+                    <Image src={male} alt="pic" />
+                    <p className="mt-4 text-lg font-semibold">John Doe</p>
+                    <p className="text-sm text-gray-500">Company A</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <Image src={female} alt="pic" />
+                    <p className="mt-4 text-lg font-semibold">Jane Smith</p>
+                    <p className="text-sm text-gray-500">Company B</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <Image src={female2} alt="pic" />
+                    <p className="mt-4 text-lg font-semibold">Sara Johnson</p>
+                    <p className="text-sm text-gray-500">Company C</p>
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default Testimonials;

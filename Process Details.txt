@@ -1,0 +1,7 @@
+detail this process:
+to setup nextjs to use mongodb to store dental x-ray units sorted by model, year, location, price, brand, I post these info from an admin
+panel CRUD and they (the information) are stored in mongodb and the images will be stored in cloudinary
+
+detail this process:
+a google, facebook an signup using email and password choices for the customer to login to website using next js and tailwind - 
+skip tailwind and nextjs installation
