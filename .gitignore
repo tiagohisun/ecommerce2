@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+server/node_modules/  # (1. P. - Ignore node_modules in server folder)
 
 # testing
 /coverage
@@ -34,3 +35,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# mongodb inside server folder
+server/mongodb/  # (1. P. - Correctly ignore mongodb folder inside server folder)
+
